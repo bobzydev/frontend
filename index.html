@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Create a CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1 data-testid="slackUserName">Israel Ojo</h1>
+        <img src="profile-picture.jpg" alt="Israel Ojo" data-testid="slackDisplayImage">
+    </header>
+    <main>
+        <p data-testid="currentDayOfTheWeek">Day of the Week: Monday</p>
+        <p data-testid="currentUTCTime">UTC Time: <span id="utcTime"></span></p>
+        <p data-testid="myTrack">Track: Frontend</p>
+        <a href="https://github.com/bobzydev/frontend" data-testid="githubURL">GitHub Repository</a>
+    </main>
+    <script src="script.js"></script> <!-- Create a JavaScript file for real-time data -->
+</body>
+</html>
